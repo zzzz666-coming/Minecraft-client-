@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "trainingtarget",
+  "version": "${version}",
+  "name": "Training Target Indicator",
+  "description": "A client-side target detection and training indicator. It does not attack automatically.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.trainingtarget.ClientMain"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
